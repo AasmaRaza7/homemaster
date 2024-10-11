@@ -1,0 +1,45 @@
+:root
+{
+    --btnBgColorDark:#ffc554;
+    --btnBorder: #ffc554;
+    --btnColor:#4d5969;
+}/*
+@keyframes mymove {
+    50% {transform: rotate(80deg);}
+  }
+body{
+    font-family: "Merriweather", serif;
+}*/
+
+img[src="./images/plate.png"]
+{
+    margin-top: 6rem !important;
+    margin-left: 8rem !important;
+    
+}
+
+[data-aos="rotate-c"] {
+    transform: rotate(-180deg);
+    transition-property: transform;
+}
+[data-aos="rotate-c"].aos-animate {transform: rotate(0deg);}
+
+.btn-outline-primary
+{
+    background-color: transparent;
+    border-color: var(--btnBorder) !important;
+    color: var(--btnBorder) !important;
+
+}
+
+.btn-primary, .btn-outline-primary:hover
+{
+    color:var(--btnColor) !important;
+    border-color: var(--btnBorder) !important;
+    background-color: var(--btnBgColorDark) !important;
+}
+
+.top-10
+{
+    top: 100px;
+}
