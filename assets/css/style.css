@@ -2,6 +2,12 @@
     --btnBgColorDark: #ffc554;
     --btnBorder: #ffc554;
     --btnColor: #4d5969;
+    --hDeliveryBgColor: #091629;
+}
+
+.body
+{
+    background-color: rgb(249, 250, 254);
 }
 
 /*
@@ -80,4 +86,17 @@ img[src="./images/plate.png"] {
     margin-bottom: 0;
     /* border: 1rem solid transparent; */
 
+}
+.detailMenu
+{
+    background-color: rgb(249, 250, 254);
+}
+
+.homeDelivery
+{
+    background-color: var(--hDeliveryBgColor);
+}
+.hungry
+{
+    color: rgb(255, 199, 46);
 }
